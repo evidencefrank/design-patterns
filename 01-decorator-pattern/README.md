@@ -12,4 +12,4 @@
 Open-Closed Principle (OCP):
  => An Object or Component should be open for extension but closed for modification.
  
- Use of Decorators can ensure that a developer abide by the OCP principle.
+ Use of Decorators can ensure that a developer abide by the OCP principles.

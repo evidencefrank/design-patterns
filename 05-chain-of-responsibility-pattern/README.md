@@ -1,0 +1,6 @@
+<h2>The Chain of Responsibility Pattern</h2>
+<p>The chain of responsibility pattern is definitely an interesting one. It literally allows us to chain any number of objects, where each has the option of either handling a particular request, or deferring to the next object in the cycle.</p>
+<p>It gives us the ability to literally chain object calls while giving each of these objects the ability to end the execution and handle the request or otherwise if it can't handle the request for whatever reason, it will simply send your request up the chain 
+and then at the point the next object will have a chance to do the exact same thing.</p>
+<p>So the benefit of using this approach when it's relevant is that the client can make a request without knowing specifically how that particular request will be handled.</p>
+<p>The chain of responsibility pattern is almost similar to the decorator pattern. The difference is that in the chain of responsibility pattern any of the objects have the ability to slice through a chain so that nothing else gets triggered.</p>

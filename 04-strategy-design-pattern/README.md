@@ -1,4 +1,4 @@
-<h2>The Strategy Design Pattern and Polymorphism/h2>
+<h2>The Strategy Design Pattern and Polymorphism</h2>
 <p>The Strategy Design Pattern defines a family of algorithms, encapsulates each one and then makes them interchangeable. And ultimately by leveraging polymorphism
 we are able to build loosely coupled applications where we are able to swap in out various components at runtime.</p>
 
